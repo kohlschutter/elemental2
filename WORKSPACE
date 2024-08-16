@@ -1,5 +1,16 @@
 workspace(name = "com_google_elemental2")
 
+new_local_repository(
+        name = "com_google_closure_compiler",
+        path = "../../closure-compiler/",
+        build_file = "jscomp.BUILD",
+)
+
+local_repository(
+    name = "com_google_jsinterop_generator",
+    path = "../../jacline-jsinterop-generator/jsinterop-generator/",
+)
+
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 # Load J2CL separately
