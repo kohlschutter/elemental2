@@ -3,7 +3,7 @@ workspace(name = "com_google_elemental2")
 new_local_repository(
         name = "com_google_closure_compiler",
         path = "../../closure-compiler/",
-        build_file = "jscomp.BUILD",
+        build_file = "//build_defs/internal_do_not_use:jscomp.BUILD",
 )
 
 local_repository(
