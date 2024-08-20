@@ -87,3 +87,9 @@ jsinterop_generator(
     name = "elemental2-indexeddb",
     exports = ["//java/elemental2/indexeddb"],
 )
+
+# Web Crypto api
+jsinterop_generator(
+    name = "elemental2-webcrypto",
+    exports = ["//java/elemental2/webcrypto"],
+)

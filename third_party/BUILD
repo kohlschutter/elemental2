@@ -268,6 +268,11 @@ extern(
 )
 
 extern(
+    name = "w3c_webcrypto",
+    path = "browser/w3c_webcrypto.js",
+)
+
+extern(
     name = "svg.js",
     path = "browser/svg.js",
 )
