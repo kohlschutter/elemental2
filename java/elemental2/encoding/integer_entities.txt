@@ -1,0 +1,4 @@
+elemental2.encoding.TextEncoder.EncodeIntoReturnType.getRead
+elemental2.encoding.TextEncoder.EncodeIntoReturnType.setRead.read
+elemental2.encoding.TextEncoder.EncodeIntoReturnType.getWritten
+elemental2.encoding.TextEncoder.EncodeIntoReturnType.setWritten.written

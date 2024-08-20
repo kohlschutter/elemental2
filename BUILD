@@ -93,3 +93,9 @@ jsinterop_generator(
     name = "elemental2-webcrypto",
     exports = ["//java/elemental2/webcrypto"],
 )
+
+# Encoding API
+jsinterop_generator(
+    name = "elemental2-encoding",
+    exports = ["//java/elemental2/encoding"],
+)

@@ -243,6 +243,11 @@ extern(
 )
 
 extern(
+    name = "whatwg_encoding",
+    path = "browser/whatwg_encoding.js",
+)
+
+extern(
     name = "mediakeys",
     path = "browser/mediakeys.js",
 )
