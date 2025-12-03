@@ -25,6 +25,7 @@ jsinterop_generator(
     externs_deps = [],
     deps = [
         "//java/elemental2/core",
+        "//java/elemental2/dom",
         "//java/elemental2/promise",
     ],
 )
