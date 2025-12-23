@@ -92,3 +92,8 @@ jsinterop_generator(
     name = "elemental2-webcrypto",
     exports = ["//java/elemental2/webcrypto"],
 )
+
+jsinterop_generator(
+    name = "elemental2-barcode",
+    exports = ["//java/elemental2/barcode"],
+)
